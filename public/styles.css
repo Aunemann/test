@@ -334,3 +334,18 @@ html {
   background: linear-gradient(to bottom right, #ed3b4b, #742020);
 }
 
+#candidate3 {
+  background: linear-gradient(to bottom right, #9929ea, #5808fb);
+}
+
+#candidate4 {
+  background: linear-gradient(to bottom right, #dae4e4, #d3e0e0);
+}
+
+#candidate5 {
+  background: linear-gradient(to bottom right, #facc22, #f83600);
+}
+
+#candidate6 {
+  background: linear-gradient(to bottom right, #ff0000, #f33d09);
+}
