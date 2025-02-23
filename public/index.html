@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Presidential Candidates</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Intro/Hero Section -->
+  <header class="hero">
+    <h1>Welcome to the Presidential Election</h1>
+    <p>Scroll down to explore each candidate and cast your vote.</p>
+    <div id="results-container">
+      <h2>Current Vote Counts:</h2>
+      <div id="results"></div>
+    </div>
+    <a href="#candidates" class="scroll-down">Scroll Down</a>
+  </header>
+
+  <div class="parallax">
+    <div class="parallax-layer background"></div>
+    <div class="parallax-layer foreground">
+      <div id="candidates">
+        <section class="candidate" id="candidate1">
+          <h1 class="party">PB Party</h1>
+          <img src="Candidates/PB.png" alt="Pb" loading="lazy">
+          <h1>PB</h1>
+          <p>A visionary leader with a plan for the future.</p>
+          <button class="vote-button" data-candidate="PB">Vote for PB</button>
+        </section>
+        <section class="candidate" id="candidate2">
+          <h1 class="party">Shortened PP Party</h1>
+          <img src="Candidates/Spicy.png" alt="Spicy" loading="lazy">
+          <h1>Spicy</h1>
+          <p>Committed to unity and progress for all.</p>
+          <button class="vote-button" data-candidate="Spicy">Vote for Spicy</button>
+        </section>
+        <!-- Add more candidate sections as needed -->
+      </div>
+    </div>
+  </div>
+  <input type="hidden" id="voterId" value="">
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
