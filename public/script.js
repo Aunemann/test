@@ -36,15 +36,15 @@ document.addEventListener('DOMContentLoaded', () => {
   checkIfVoted();
 
   // Smooth scrolling for "Scroll Down" link
-  const scrollDownLink = document.querySelector('.scroll-down');
-  if (scrollDownLink) {
-    scrollDownLink.addEventListener('click', e => {
-      e.preventDefault();
-      document.querySelector('#candidates').scrollIntoView({
-        behavior: 'smooth'
-      });
-    });
-  }
+ // const scrollDownLink = document.querySelector('.scroll-down');
+ // if (scrollDownLink) {
+//    scrollDownLink.addEventListener('click', e => {
+//      e.preventDefault();
+//      document.querySelector('#candidates').scrollIntoView({
+//        behavior: 'smooth'
+//      });
+//    });
+//  }
 
   // Add event listeners to vote buttons
   voteButtons.forEach(button => {
